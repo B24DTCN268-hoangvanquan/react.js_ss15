@@ -8,7 +8,7 @@ function CounText() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px"}}>
       <textarea
         rows={5}
         cols={40}

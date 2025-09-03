@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <Exercise01/> */}
+      <Exercise01/>
       {/* <Exercise02/> */}
       {/* <DateForm/> */}
       {/* <Exercise04/> */}

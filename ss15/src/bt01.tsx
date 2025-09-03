@@ -5,7 +5,7 @@ interface State {
 }
 
 export default class Exercise01 extends Component<{}, State> {
-  constructor(props: {}) {
+  constructor(props: {}) { 
     super(props);
     this.state = {
       email: "",
@@ -29,6 +29,6 @@ export default class Exercise01 extends Component<{}, State> {
           <button type="submit">Submit</button>
         </form>
       </>
-    );
+    )
   }
 }

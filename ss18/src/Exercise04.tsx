@@ -3,11 +3,14 @@ import React, { useState, useCallback } from 'react';
 function ColorPicker() {
   const [color, setColor] = useState('');
 
-  const handleChangeColor = useCallback(function (e) {
-    setColor(e.target.value);
-  }, []);
+  const handleChangeColor = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>) => {
+      setColor(e.target.value);
+    },
+    []
+  );
 
-  return (
+  return (                                                    
     <div>
       <h2>Chọn màu</h2>
       <input
@@ -18,7 +21,7 @@ function ColorPicker() {
 
       <div style={{ marginTop: '1rem' }}>
         <p><strong>Màu người dùng chọn:</strong> {color || 'Chưa chọn'}</p>
-        <p><strong>Màu hiển thị:</strong></p>
+        <p><strong>Màu hiển thị:</strong></p> 
         <div
           style={{
             width: '100px',

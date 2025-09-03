@@ -17,9 +17,9 @@ function App() {
      {/* <Exercise02/> */}
      {/* <ChangeColor/> */}
      {/* <Toggle/> */}
-     {/* <Form/> */}
+     <Form/>
      {/* <CounText/> */}
-     <SelectCity/>
+     {/* <SelectCity/> */}
 
     </>
   )
