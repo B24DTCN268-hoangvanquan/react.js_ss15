@@ -1,0 +1,16 @@
+nav {
+  padding: 16px;
+  background-color: #f5f5f5;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav a.active {
+  color: red;
+  font-weight: bold;
+}
