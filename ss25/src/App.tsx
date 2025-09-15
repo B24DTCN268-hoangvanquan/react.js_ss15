@@ -22,13 +22,13 @@ function App() {
     //   <Router>
     //   <Routes>
     //     <Route path="/contact" element={<Contact />} />
-    //   </Routes>
+    //   </Routes> 
     // </Router>
     
     <>
-    <Ex04></Ex04>
-    <Ex03></Ex03>
-    <Ex05></Ex05>
+    {/* <Ex04></Ex04> */}
+    {/* <Ex03></Ex03> */}
+    {/* <Ex05></Ex05> */}
     <Ex06></Ex06>
     </>
   )

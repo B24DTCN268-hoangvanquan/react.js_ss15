@@ -6,6 +6,7 @@ import Execise04 from './ex04'
 import Execise05 from './ex05'
 import Execise06 from './ex06'
 import Execise07 from './ex07'
+import TodoApp from './demoHatkathon'
 
 
 function App() {
@@ -15,11 +16,12 @@ function App() {
     <>
       {/* <Execise01/> */}
       {/* <Execise02/> */}
-      <Execise03/>
+      {/* <Execise03/> */}
       {/* <Execise04/> */}
       {/* <Execise05/> */}
       {/* <Execise06/> */}
       {/* <Execise07/> */}
+      <TodoApp></TodoApp>
     </>
   )
 }
